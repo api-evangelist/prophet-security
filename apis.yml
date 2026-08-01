@@ -1,8 +1,15 @@
 aid: prophet-security
 name: Prophet Security
-description: 'Prophet Security is a company surfaced as a portfolio company of accel, bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Prophet Security is a cybersecurity company building an agentic AI Security
+  Operations Center (SOC) platform. Its product, Prophet AI, uses autonomous AI agents to
+  automate alert triage, investigation, response, and threat hunting across the security
+  operations lifecycle. The platform ingests from SIEMs, EDRs/XDRs, identity providers,
+  cloud platforms (AWS, Azure, GCP), email and network security, threat intelligence, and
+  case-management tools to deliver full-context investigations inside existing analyst
+  workflows. Prophet Security is a Series A company founded in 2023, backed by Accel and
+  Bain Capital Ventures. It is SOC 2 Type 2, ISO 27001, HIPAA, and GDPR aligned. Prophet
+  does not publish a public developer API, SDK, or MCP server; integration is via read-only
+  connections into a customer''s own security tooling.'
 url: https://raw.githubusercontent.com/api-evangelist/prophet-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,30 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66082cf1d4c6684fb536dfbe/67ed7062e5b04684d8185526_Homepage-open-graph-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Security
+- Cybersecurity
+- SOC
+- Security Operations
+- Threat Detection
+- Agentic AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.prophetsecurity.ai/
+- type: Blog
+  url: https://www.prophetsecurity.ai/blog
+- type: SignUp
+  url: https://www.prophetsecurity.ai/request-a-demo
+- type: PrivacyPolicy
+  url: https://www.prophetsecurity.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.prophetsecurity.ai/terms-of-service
+- type: TrustCenter
+  url: security/prophet-security-trust-center.yml
+- type: Compliance
+  url: https://trust.prophetsecurity.ai/
+- type: DomainSecurity
+  url: security/prophet-security-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
